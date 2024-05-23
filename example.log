@@ -1,0 +1,342 @@
+2024-05-23 20:53:00,676 - WARNING -  * Debugger is active!
+2024-05-23 20:53:00,684 - INFO -  * Debugger PIN: 103-084-381
+2024-05-23 20:53:03,014 - INFO - 127.0.0.1 - - [23/May/2024 20:53:03] "[32mPOST /edit HTTP/1.1[0m" 302 -
+2024-05-23 20:53:03,026 - INFO - 127.0.0.1 - - [23/May/2024 20:53:03] "GET / HTTP/1.1" 200 -
+2024-05-23 20:53:03,139 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:03,146 - INFO - 127.0.0.1 - - [23/May/2024 20:53:03] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:53:04,341 - INFO - 127.0.0.1 - - [23/May/2024 20:53:04] "GET /edit HTTP/1.1" 200 -
+2024-05-23 20:53:04,505 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:04,507 - INFO - 127.0.0.1 - - [23/May/2024 20:53:04] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:53:06,723 - INFO - 127.0.0.1 - - [23/May/2024 20:53:06] "[32mPOST /edit HTTP/1.1[0m" 302 -
+2024-05-23 20:53:06,730 - INFO - 127.0.0.1 - - [23/May/2024 20:53:06] "GET / HTTP/1.1" 200 -
+2024-05-23 20:53:06,862 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:06,863 - INFO - 127.0.0.1 - - [23/May/2024 20:53:06] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:53:13,037 - INFO - 127.0.0.1 - - [23/May/2024 20:53:13] "GET /edit HTTP/1.1" 200 -
+2024-05-23 20:53:13,177 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:13,179 - INFO - 127.0.0.1 - - [23/May/2024 20:53:13] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:53:16,861 - INFO - 127.0.0.1 - - [23/May/2024 20:53:16] "[32mPOST /edit HTTP/1.1[0m" 302 -
+2024-05-23 20:53:16,866 - INFO - 127.0.0.1 - - [23/May/2024 20:53:16] "GET / HTTP/1.1" 200 -
+2024-05-23 20:53:17,037 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:17,039 - INFO - 127.0.0.1 - - [23/May/2024 20:53:17] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:53:19,047 - INFO - 127.0.0.1 - - [23/May/2024 20:53:19] "GET /edit HTTP/1.1" 200 -
+2024-05-23 20:53:19,195 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:19,196 - INFO - 127.0.0.1 - - [23/May/2024 20:53:19] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:53:20,430 - INFO - 127.0.0.1 - - [23/May/2024 20:53:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-05-23 20:53:20,436 - INFO - 127.0.0.1 - - [23/May/2024 20:53:20] "GET / HTTP/1.1" 200 -
+2024-05-23 20:53:20,580 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:20,581 - INFO - 127.0.0.1 - - [23/May/2024 20:53:20] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:53:39,244 - INFO - 127.0.0.1 - - [23/May/2024 20:53:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-23 20:53:39,249 - INFO - 127.0.0.1 - - [23/May/2024 20:53:39] "GET / HTTP/1.1" 200 -
+2024-05-23 20:53:39,363 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:39,365 - INFO - 127.0.0.1 - - [23/May/2024 20:53:39] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:53:41,290 - INFO - 127.0.0.1 - - [23/May/2024 20:53:41] "GET /edit HTTP/1.1" 200 -
+2024-05-23 20:53:41,450 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:41,451 - INFO - 127.0.0.1 - - [23/May/2024 20:53:41] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:53:52,865 - INFO - 127.0.0.1 - - [23/May/2024 20:53:52] "[32mPOST /edit HTTP/1.1[0m" 302 -
+2024-05-23 20:53:52,869 - INFO - 127.0.0.1 - - [23/May/2024 20:53:52] "GET / HTTP/1.1" 200 -
+2024-05-23 20:53:53,025 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:53:53,026 - INFO - 127.0.0.1 - - [23/May/2024 20:53:53] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:54:18,024 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:54:18,026 - INFO - 127.0.0.1 - - [23/May/2024 20:54:18] "GET /error HTTP/1.1" 200 -
+2024-05-23 20:54:18,174 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:54:18,176 - INFO - 127.0.0.1 - - [23/May/2024 20:54:18] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:54:32,813 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:54:32,815 - INFO - 127.0.0.1 - - [23/May/2024 20:54:32] "GET /error HTTP/1.1" 200 -
+2024-05-23 20:54:32,944 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:54:32,945 - INFO - 127.0.0.1 - - [23/May/2024 20:54:32] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:54:42,931 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:54:42,933 - INFO - 127.0.0.1 - - [23/May/2024 20:54:42] "GET /error HTTP/1.1" 200 -
+2024-05-23 20:54:43,056 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:54:43,060 - INFO - 127.0.0.1 - - [23/May/2024 20:54:43] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:55:32,352 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:55:32,355 - INFO - 127.0.0.1 - - [23/May/2024 20:55:32] "GET /error HTTP/1.1" 200 -
+2024-05-23 20:55:32,488 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:55:32,489 - INFO - 127.0.0.1 - - [23/May/2024 20:55:32] "GET /favicon.ico HTTP/1.1" 200 -
+2024-05-23 20:55:42,621 - INFO - 127.0.0.1 - - [23/May/2024 20:55:42] "GET / HTTP/1.1" 200 -
+2024-05-23 20:55:42,770 - ERROR - An error occurred: 
+Traceback (most recent call last):
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\flask\ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ptg\Desktop\9B117028q3-main\.venv\Lib\site-packages\werkzeug\routing\map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-23 20:55:42,771 - INFO - 127.0.0.1 - - [23/May/2024 20:55:42] "GET /favicon.ico HTTP/1.1" 200 -

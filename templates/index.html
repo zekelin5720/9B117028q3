@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ pagename }}</h1>
+    
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>{{ member[1] }}</th>
+        </tr>
+        <tr>
+            <th>生日</th>
+            <th>{{ member[2] }}</th>
+        </tr>
+        <tr>
+            <th>血型</th>
+            <th>{{ member[3] }}</th>
+        </tr>
+        <tr>
+            <th>手機</th>
+            <th>{{ member[4] }}</th>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <th>{{ member[5] }}</th>
+        </tr>
+        <tr>
+            <th><nobr>身份證號</nobr></th>
+            <th>{{ member[6] }}</th>
+        </tr>
+        <tr>
+            <th>密碼</th>
+            <th>{{ member[7] }}</th>
+        </tr>
+    </table>
+    <div id="fn" style="display:none">
+        <a href="{{ url_for('edit')}}">修改個人資訊</a>
+        <a href="{{ url_for('logout')}}">登出</a>
+    </div>
+
+    
+    <script>
+        // 從 Flask 後端傳遞的成員
+        var member = "{{ member }}";
+
+        // 檢查 member 是否存在
+        if (member) {
+            document.getElementById("fn").style.display="contents";
+        }
+    </script>
+</body>
+</html>

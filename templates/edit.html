@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ pagename }}</h1>
+    
+    <form method="post" action="{{ url_for('edit') }}">
+
+      <input type="hidden" name="u0" value="{{ member[0] }}"> 
+      <span>姓名:<input type="text" name="u1" value="{{ member[1] }}"/></span><br>
+      <span>生日:<input type="text" name="u2" value="{{ member[2] }}"/></span><br>
+      <span>血型:<input type="text" name="u3" value="{{ member[3] }}"/></span><br>
+      <span>手機:<input type="text" name="u4" value="{{ member[4] }}"/></span><br>
+      <span>Email:<input type="text" name="u5" value="{{ member[5] }}"/></span><br>
+      <span>身份證號:<input type="text" name="u6" value="{{ member[6] }}"/></span><br>
+      <span>密碼:<input type="text" name="u7" value="{{ member[7] }}"/></span><br>
+      
+      <input type="submit" value="送出"/>
+      <a href="{{ url_for('logout')}}">登出</a>
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h1>登入頁</h1>
+    <form method="post" action="{{ url_for('login') }}">
+        <label>身分證號:</label>
+        <input type="text" name="username"><br><br>
+        <label>密碼:</label>
+        <input type="text" name="password"><br><br>
+        <input type="submit" value="登入">
+    </form>
+    <br>
+    <span style="color:#f00;">{{ error_message }}</span>
+    
+</body>
+</html>
